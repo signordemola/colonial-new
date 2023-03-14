@@ -2,7 +2,6 @@ import React from 'react';
 
 // import components
 import Display from '../components/Display';
-import Featured from '../components/Featured';
 import Gallery from '../components/Gallery';
 import Hero from '../components/Hero';
 // import Services from '../components/Services';
@@ -13,8 +12,6 @@ const Home = () => {
       <Hero />
       <Gallery />
       <Display />
-      <Featured />
-      {/* <Services /> */}
     </div>
   );
 };

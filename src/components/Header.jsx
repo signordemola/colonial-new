@@ -103,17 +103,7 @@ const Header = () => {
             </a>
           </li>
 
-          {/* <li>
-            <a href="/service" className="hover:text-primary-200 transition">
-              Services
-            </a>
-          </li>
-
-          <li>
-            <a href="/sectors" className="hover:text-primary-200 transition">
-              Sectors
-            </a>
-          </li> */}
+         
 
           <li>
             <a href="/contact" className="hover:text-primary-200 transition">
