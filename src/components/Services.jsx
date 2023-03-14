@@ -7,7 +7,6 @@ import { services } from '../data';
 
 const Services = () => {
   const { title, details } = services;
-  console.log(title);
   return (
     <div className="container mx-auto py-12">
       <h1 className="h3 pb-8">What Makes Us Different</h1>

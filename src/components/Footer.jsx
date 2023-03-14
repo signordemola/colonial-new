@@ -6,12 +6,12 @@ const Footer = () => {
   return (
     <footer className="text-body-sm md:text-body-md lg:text-body-lg bg-[#dfdbd2]">
       <div className="max-w-[1440px] px-4 py-20 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
-        <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+        <div className="w-40 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
           <a href="/">
             <img src={logo} alt="" />
           </a>
         </div>
-        <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+        <div className="flex-grow flex flex-wrap md:pl-9 -mb-10 md:mt-0 mt-10 md:text-left text-center">
           <div className="lg:w-1/3 md:w-1/2 w-full px-4">
             <h2 className="text-body-md text-gray-900 tracking-widest mb-3 uppercase">
               Head office

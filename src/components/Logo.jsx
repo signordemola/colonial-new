@@ -8,7 +8,7 @@ import photo4 from '../assets/images/gallery/photo-010.svg';
 const Logo = () => {
   return (
     <section className="bg-white">
-      <div className="container mx-auto flex justify-between items-center px-6 py-12">
+      <div className="container mx-auto flex justify-between items-center py-12">
         <img src={photo1} alt="" />
         <img src={photo2} alt="" />
         <img src={photo3} alt="" />
