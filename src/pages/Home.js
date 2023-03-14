@@ -4,6 +4,8 @@ import React from 'react';
 import Display from '../components/Display';
 import Gallery from '../components/Gallery';
 import Hero from '../components/Hero';
+import Logo from '../components/Logo';
+import Services from '../components/Services';
 // import Services from '../components/Services';
 
 const Home = () => {
@@ -11,7 +13,9 @@ const Home = () => {
     <div>
       <Hero />
       <Gallery />
+      <Services />
       <Display />
+      <Logo />
     </div>
   );
 };

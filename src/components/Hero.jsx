@@ -5,7 +5,7 @@ const Hero = () => {
     <section className="h-screen w-screen bg-hero bg-cover bg-center bg-opacity-50 flex px-5 py-24 items-center justify-center">
       <div className="flex px-5 py-24 items-center justify-center flex-col">
         <div className="text-center lg:w-5/6 w-full py-4">
-          <h1 className="h1 mb-4 font-medium text-slate-50">
+          <h1 className="h1 mb-4 font-medium text-black/70">
             Colonial Furniture & Mattresses Inc.
           </h1>
           
