@@ -45,11 +45,11 @@ const About = () => {
 
       <div className="border-t-[2px] mt-6 p-4">
         <h1 className="h6 text-primary-300">
-          Robert Songstad <span className="px-2">-</span>{' '}
+          Susan M Merritt <span className="px-2">-</span>{' '}
           <span className="px-2">Co-Founder & CFO</span>
         </h1>
         <p className="p-2">
-          Robert Songstad is an experienced leader and has a deep understanding
+          Susan M Merritt is an experienced leader and has a deep understanding
           of the business landscape. Robert is an avid traveler and enjoys
           exploring new cultures and ideas. He is also an active member of the
           community, and is always looking for ways to help other entrepreneurs

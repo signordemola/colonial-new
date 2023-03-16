@@ -33,7 +33,7 @@ const Services = () => {
       })}
       <div className=" border-t-[2px] p-4">
         <Link to="/about">
-          <button className="btn btn-sm md:btn-lg uppercase border-2 border-black hover:bg-primary-200 hover:text-white transition">
+          <button className="btn btn-sm md:btn-lg uppercase border-2 border-black/80 hover:bg-primary-200 hover:text-white hover:border-0 transition">
             Learn More About Us
           </button>
         </Link>
