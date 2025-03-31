@@ -58,38 +58,7 @@ const Contact = () => {
           <h2 className="text-lg mb-1 font-medium capitalize">
             Request a callback
           </h2>
-          {/* <p className="leading-relaxed mb-5 text-gray-600">
-            Post-ironic portland shabby chic echo park, banjo fashion axe
-          </p> */}
-          <div className="relative mb-4">
-            <label className="leading-7 text-sm text-gray-600">Name</label>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              className="w-full bg-white rounded border border-gray-300 focus:border-primary-400 focus:ring-2 focus:ring-primary-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-            />
-          </div>
-          <div className="relative mb-4">
-            <label className="leading-7 text-sm text-gray-600">Email</label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              className="w-full bg-white rounded border border-gray-300 focus:border-primary-400 focus:ring-2 focus:ring-primary-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-            />
-          </div>
-          <div className="relative mb-4">
-            <label className="leading-7 text-sm text-gray-600">Message</label>
-            <textarea
-              id="message"
-              name="message"
-              className="w-full bg-white rounded border border-gray-300 focus:border-primary-400 focus:ring-2 focus:ring-primary-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
-            ></textarea>
-          </div>
-          <button className="inline-flex text-white bg-primary-200 border-0 py-2 px-6 focus:outline-none hover:bg-primary-100 rounded text-lg items-center justify-center">
-            Leave a Message
-          </button>
+
           <form onSubmit={handleSubmit}>
             <div className="relative mb-4">
               <label className="leading-7 text-sm text-gray-600">Name</label>

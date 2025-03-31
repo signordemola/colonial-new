@@ -26,7 +26,6 @@ const Services = () => {
 
             <div className="p-6 w-1/3">
               <img className="w-full h-full" src={img} alt="" />
-              <img className="w-full h-full" src={img} alt="" />
             </div>
           </div>
         );
