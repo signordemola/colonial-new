@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-import React from 'react';
-
-const Contact = () => {
-=======
 import React, { useState } from "react";
 
 const Contact = () => {
@@ -33,7 +28,6 @@ const Contact = () => {
       setIsSubmitting(false);
     }
   };
->>>>>>> 508b4ff (update for vercel)
   return (
     <section className="pt-12 text-neutral-400">
       <h1 className="h1 text-center pt-12 text-neutral-400 uppercase">
@@ -67,7 +61,6 @@ const Contact = () => {
           {/* <p className="leading-relaxed mb-5 text-gray-600">
             Post-ironic portland shabby chic echo park, banjo fashion axe
           </p> */}
-<<<<<<< HEAD
           <div className="relative mb-4">
             <label className="leading-7 text-sm text-gray-600">Name</label>
             <input
@@ -97,7 +90,6 @@ const Contact = () => {
           <button className="inline-flex text-white bg-primary-200 border-0 py-2 px-6 focus:outline-none hover:bg-primary-100 rounded text-lg items-center justify-center">
             Leave a Message
           </button>
-=======
           <form onSubmit={handleSubmit}>
             <div className="relative mb-4">
               <label className="leading-7 text-sm text-gray-600">Name</label>
@@ -185,7 +177,6 @@ const Contact = () => {
               )}
             </button>
           </form>
->>>>>>> 508b4ff (update for vercel)
           <p className="text-xs text-gray-400 mt-3">
             Chicharrones blog helvetica normcore iceland tousled brook viral
             artisan.
