@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 
 import { Link } from 'react-router-dom';
@@ -7,6 +8,16 @@ import { services } from '../data';
 
 const Services = () => {
   const { title, details } = services;
+=======
+import React from "react";
+
+import { Link } from "react-router-dom";
+
+import { services } from "../data";
+
+const Services = () => {
+  const { details } = services;
+>>>>>>> 508b4ff (update for vercel)
   return (
     <div className="container mx-auto py-12">
       <h1 className="h3 pb-8">What Makes Us Different</h1>
@@ -26,7 +37,11 @@ const Services = () => {
             </div>
 
             <div className="p-6 w-1/3">
+<<<<<<< HEAD
               <img className='w-full h-full' src={img} alt="" />
+=======
+              <img className="w-full h-full" src={img} alt="" />
+>>>>>>> 508b4ff (update for vercel)
             </div>
           </div>
         );
